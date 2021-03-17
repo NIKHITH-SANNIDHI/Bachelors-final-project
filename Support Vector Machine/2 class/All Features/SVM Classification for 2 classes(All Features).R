@@ -23,12 +23,8 @@ ranklist<-read_excel("RankList using SVM_RFE-2 classes(All Features).xlsx",
                      range=cell_cols("A"), col_names = FALSE)
 ranklist<-as.matrix(ranklist)
 
-ranklist
-length(ranklist)
-
 #Now take the selected features only from the ranklists
 cutoff = 7+1
-cutoff
 
 ranklist<-ranklist[1:cutoff]
 length(ranklist)
@@ -41,8 +37,6 @@ BIG.A<-read.csv("MBD_CLASS(All Features).csv")
 #Remove records with zeroes
 index<-rowSums(BIG.A[,ranklist] != 0 & BIG.A[,ranklist] != 1) != 0
 
-index
-
 
 Zero_rows<-which(index == FALSE)
 Zero_rows
@@ -50,7 +44,6 @@ BIG.A[2989,ranklist]
 nrow(Zero_rows)
 
 newBIG<-BIG.A[index,]
-
 newBIG
 
 
