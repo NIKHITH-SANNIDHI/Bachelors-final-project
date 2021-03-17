@@ -1,6 +1,5 @@
 # Bachelors-final-project
-This repository is dedicated to all the work performed during my final semester of undergraduate project and it is my Bachelor's project required for Bachelor's degree. 
-My bachelor thesis is published at the UPC knowledge repository and can be accessed here: https://upcommons.upc.edu/handle/2117/120691
+This repository is dedicated to all the work developed during the final semester of my undergraduate project and it is my Bachelor's project required for my Bachelor's degree. My bachelor thesis is published at the UPC knowledge repository and can be accessed here: https://upcommons.upc.edu/handle/2117/120691
 
 ## Brief overview
 This goal of this project is to find optimal discriminating parameters using non-linear machine learning methods (specifically support vector machine and random forest) for microbial source tracking in fecally contaminated water to reduce time and cost overhead for the microbiologists from data consisting of 10,000 samples discriminated by 45 features. 
